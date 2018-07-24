@@ -3,6 +3,19 @@
 
 }
 
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffe498;
+    text-decoration: none;
+}
+
 .carousel-item{
     height: 800px;
 }
@@ -53,4 +66,16 @@
 .btn:hover{
     background-color: #a83026;
     border-color: #a83026;
+}
+
+.footer{
+    position: fixed;
+    padding-top: 0.3em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+    font-size: 14px;
 }
