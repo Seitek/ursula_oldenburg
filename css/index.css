@@ -1,0 +1,61 @@
+#kontaktbox {
+    /* Box */
+    position: sticky;
+    background-color: white;
+    z-index: 20;
+    margin-top: -3em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* Text */
+    text-align: center;
+    text-justify: auto;
+    vertical-align: middle;
+}
+
+#ueberschrift {
+    text-align: center;
+    color: black;
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+#figur{
+    width: 100px;
+    margin: 1em;
+}
+
+#unterschrift{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 500;
+
+}
+
+#dienste {
+    margin-top: 4em;
+    background-color: #ffe498;
+    transform: skewY(-8deg);
+    /* Farbverlauf */
+    background: rgb(255, 228, 152);
+    background: -moz-linear-gradient(45deg, rgb(255, 228, 152) 26%, rgb(255, 218, 117) 60%, rgb(255, 199, 48) 99%);
+    background: -webkit-linear-gradient(45deg, rgb(255, 228, 152) 26%, rgb(255, 218, 117) 60%, rgb(255, 199, 48) 99%);
+    background: linear-gradient(45deg, rgb(255, 228, 152) 26%, rgb(255, 218, 117) 60%, rgb(255, 199, 48) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe498', endColorstr='#ffc730', GradientType=1);
+}
+
+.container-fluid .row {
+    transform: skewY(8deg);
+}
+
+.container-fluid .row .card {
+    box-shadow:0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    width: 30rem;
+}
+
+.container-fluid .row .card:hover{
+    box-shadow:0 20px 40px rgba(50,50,93,.1), 0 10px 20px rgba(0,0,0,.07);
+}
+
