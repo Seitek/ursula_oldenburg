@@ -20,15 +20,14 @@
     margin-bottom: 5em;
 }
 
-#figur{
+#figur {
     width: 100px;
     margin: 1em;
 }
 
-#unterschrift{
+#unterschrift {
     font-family: 'Architects Daughter', cursive;
     font-weight: 500;
-
 }
 
 #dienste {
@@ -43,19 +42,19 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe498', endColorstr='#ffc730', GradientType=1);
 }
 
-.container-fluid .row {
+.schraeg {
     transform: skewY(8deg);
 }
 
 .container-fluid .row .card {
-    box-shadow:0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
     margin: 0 auto;
     float: none;
     margin-bottom: 10px;
     width: 30rem;
+    text-align: justify;
 }
 
-.container-fluid .row .card:hover{
-    box-shadow:0 20px 40px rgba(50,50,93,.1), 0 10px 20px rgba(0,0,0,.07);
+.container-fluid .row .card:hover {
+    box-shadow: 0 20px 40px rgba(50, 50, 93, .1), 0 10px 20px rgba(0, 0, 0, .07);
 }
-
