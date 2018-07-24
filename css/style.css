@@ -81,3 +81,7 @@ a:hover{
     font-size: 16px;
     font-weight: 400;
 }
+
+.footer-distributed .footer-center p a{
+    color: #cf4a3d;
+}

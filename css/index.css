@@ -1,7 +1,7 @@
 #kontaktbox {
     /* Box */
     position: sticky;
-    background-color: white;
+    background-color: whitesmoke;
     z-index: 20;
     margin-top: -3em;
     margin-bottom: 1em;
@@ -11,6 +11,7 @@
     text-align: center;
     text-justify: auto;
     vertical-align: middle;
+    width: 100%;
 }
 
 #ueberschrift {
@@ -18,6 +19,16 @@
     color: black;
     margin-top: 2em;
     margin-bottom: 5em;
+}
+
+#ueberschrift-bg{
+    background-image: url('../img/start_bg.jpg');
+    transform: skewY(-8deg);
+    padding-bottom: 6em;
+}
+
+#ueberschrift-row{
+    transform: skewY(8deg);
 }
 
 #figur {
@@ -31,7 +42,7 @@
 }
 
 #dienste {
-    margin-top: 4em;
+    margin-top: 0em;
     background-color: #ffe498;
     transform: skewY(-8deg);
     /* Farbverlauf */
