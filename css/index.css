@@ -1,3 +1,5 @@
+/* Kontaktbox */
+/*#################*/
 #kontaktbox {
     /* Box */
     position: sticky;
@@ -5,15 +7,32 @@
     z-index: 20;
     margin-top: -3em;
     margin-bottom: 1em;
-    padding-top: 1em;
+    /*padding-top: 2em;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* Text */
-    text-align: center;
+    text-align: justify;
     text-justify: auto;
     vertical-align: middle;
     width: 100%;
 }
 
+#kontaktbox_tel{
+    border-right: 1px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px; 
+    border-style: solid;
+    border-color: gray;
+
+    padding-bottom: 0em;
+}
+
+#test{
+    margin-top: 1em;
+}
+
+/* Seiten Über- und Unterschrift */
+/*#################*/
 #ueberschrift {
     text-align: center;
     color: black;
@@ -41,6 +60,8 @@
     font-weight: 500;
 }
 
+/* Dienste Boxen Aussehen */
+/*#################*/
 #dienste {
     margin-top: 0em;
     background-color: #ffe498;

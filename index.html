@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="./css/hover.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/slider.css">
-
 </head>
 
 <body>
@@ -29,12 +27,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
 
-                    <li class="nav-item active hvr-grow-shadow" id="nav-aussen">
+                    <li class="nav-item active hvr-bob" id="nav-aussen">
                         <a class="nav-link" href="./index.html">Start
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item hvr-grow-shadow">
+                    <li class="nav-item" id="circle-p"></li>
+                    <li class="nav-item" id="circle-p2"></li>
+                    <li class="nav-item hvr-bob">
                         <a class="nav-link" href="./praxis.html">Praxis</a>
                     </li>
 
@@ -42,12 +42,13 @@
                         <img src="./img/Maenchen_logo_schatten.png" width="400px" alt="Physiotherapie Ursula Oldenburg">
                     </a>
 
-                    <li class="nav-item hvr-grow-shadow" >
+                    <li class="nav-item hvr-bob">
                         <a class="nav-link" href="./dienste.html">Dienste</a>
                     </li>
-                    <li class="nav-item hvr-grow-shadow" id="nav-aussen">
+                    <li class="nav-item hvr-bob" id="nav-aussen">
                         <a class="nav-link" href="./kontakt.html">Kontakt</a>
                     </li>
+
                 </ul>
 
             </div>
@@ -55,6 +56,8 @@
     </header>
 
     <!--Slider START-->
+
+
     <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -80,22 +83,31 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-
+    
     <!--Slider ENDE-->
 
     <!--Kontaktbox START-->
     <div class="container">
         <div class="row justify-content-center" id="kontaktbox">
             <div class="col-sm" id="kontaktbox_tel">
-                Telefon: 04494/921397
-                <br> FAX: 04494/921399
+                    <table>
+                      <tr>
+                        <td>Telefon:</td>
+                        <td>&nbsp&nbsp04494/921397</td>
+                      </tr>
+                      <tr>
+                        <td>Fax:</td>
+                        <td>&nbsp&nbsp04494/921399</td>
+                      </tr>
+                    </table>
             </div>
             <div class="col-sm" id="kontaktbox_adress">
                 Adresse:
                 <address>
                     <b>Schnieder IT</b>
                     <br> Mozartstraße 12
-                    <br> 26219 Bösel</address>
+                    <br> 26219 Bösel
+                </address>
             </div>
         </div>
     </div>
@@ -132,7 +144,8 @@
                     <img class="card-img-top" src="./img/stick_card.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Krankenkasse</h5>
-                        <p class="card-text">Methoden und Anwendungen, die das körperliche, geistige und seelische Wohlbefinden steigern sowie Massagen, die zur Behandlung von Erkrankungen des Bewegungsapparates eingesetzt werden.</p>
+                        <p class="card-text">Methoden und Anwendungen, die das körperliche, geistige und seelische Wohlbefinden steigern sowie
+                            Massagen, die zur Behandlung von Erkrankungen des Bewegungsapparates eingesetzt werden.</p>
                         <a href="#" class="btn btn-primary">Mehr erfahren</a>
                     </div>
                 </div>
@@ -143,7 +156,8 @@
                     <img class="card-img-top" src="./img/massage_neu.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Wellness</h5>
-                        <p class="card-text">SMethoden und Anwendungen, die das körperliche, geistige und seelische Wohlbefinden steigern sowie Massagen, die zur Behandlung von Erkrankungen des Bewegungsapparates eingesetzt werden.</p>
+                        <p class="card-text">SMethoden und Anwendungen, die das körperliche, geistige und seelische Wohlbefinden steigern sowie
+                            Massagen, die zur Behandlung von Erkrankungen des Bewegungsapparates eingesetzt werden.</p>
                         <a href="#" class="btn btn-primary">Mehr erfahren</a>
                     </div>
                 </div>
@@ -151,7 +165,6 @@
         </div>
     </div>
     <!--Dienste Box ENDE-->
-
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -220,7 +233,10 @@
                         wir für Sie da.
                     </p>
                     <br>
-                    <p class="footer-company-name"><a href="./impressum.html">Impressum</a> | <a href="./datenschutz.html">Datenschutzerklärung</a></p>
+                    <p class="footer-company-name">
+                        <a href="./impressum.html">Impressum</a> |
+                        <a href="./datenschutz.html">Datenschutzerklärung</a>
+                    </p>
                     <!--Footer Icons
                     <div class="footer-icons">
 

@@ -2,6 +2,8 @@
     font-family: Camphor, Open Sans, Segoe UI, sans-serif;
 }
 
+/*Links Farbe und Aussehen*/
+/*#################*/
 a:link {
     color: white;
     text-decoration: none;
@@ -17,9 +19,15 @@ a:hover {
     text-decoration: none;
 }
 
+/*Slider Aussehen*/
+/*#################*/
+
 .carousel-item {
     height: 800px;
 }
+
+/* Header und Navbar */
+/*##################*/
 
 .navbar-nav {
     float: none;
@@ -56,8 +64,35 @@ a:hover {
     width: 6em;
     height: 6em;
     margin: 0em 1.5em;
+    
     border-radius: 150px;
     margin-top: -2em;
+    z-index: 50;
+}
+
+#circle-p {
+	width: 100px;
+	height: 100px;
+	background: #cf493d80;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: 0;
+    position: absolute;
+
+    transform: translate(0.2em, 3.7em);
+}
+#circle-p2 {
+	width: 100px;
+	height: 100px;
+	background: #ffe49873;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: 0;
+    position: absolute;
+
+    transform: translate(-0.4em, 3.3em);
 }
 
 #nav-aussen{
@@ -91,6 +126,10 @@ a:hover {
     text-transform: uppercase;
     color: white;
     margin-top: 1.5em;
+    letter-spacing: 2px;
+
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 700;
     /*border-radius: 0px;
     border: 1px solid #ffe498;
     padding: 6px; 
@@ -102,6 +141,9 @@ a:hover {
     /*border: 1px solid #cf4a3d;*/
 }
 
+/* Buttons Farbe und Aussehen */
+/*###########################*/
+
 .btn {
     background-color: #cf4a3d;
     border-color: #cf4a3d;
@@ -111,6 +153,10 @@ a:hover {
     background-color: #a83026;
     border-color: #a83026;
 }
+
+
+/* Footer */
+/*#################*/
 
 .footer-links-neu {
     /*position: fixed;
