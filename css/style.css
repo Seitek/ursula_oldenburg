@@ -20,11 +20,24 @@ a:hover {
 }
 
 /*Slider Aussehen*/
-/*#################*/
+.slide1{background-image: url(../img/aussen_gebaeude.jpg);}
+.slide2{background-image: url(../img/innen_empfang.jpg);}
+.slide3{background-image: url(../img/innen_wartebereich.jpg);}
 
 .carousel-item {
     height: 800px;
+    /*position: relative;*/
+    background-size: cover;
+
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
 }
+
 
 /* Header und Navbar */
 /*##################*/
@@ -93,6 +106,31 @@ a:hover {
     position: absolute;
 
     transform: translate(-0.4em, 3.3em);
+}
+
+#circle-s {
+	width: 100px;
+	height: 100px;
+	background: #cf493d80;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: 0;
+    position: absolute;
+
+    transform: translate(1.5em, 2.6em);
+}
+#circle-s2 {
+	width: 100px;
+	height: 100px;
+	background: #ffe49873;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: 0;
+    position: absolute;
+
+    transform: translate(1em, 2.3em);
 }
 
 #nav-aussen{
